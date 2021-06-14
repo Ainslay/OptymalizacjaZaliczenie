@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bda1b244-af7a-4eff-b958-789784fe46e4/resourceGroups/RG-University/providers/Microsoft.Web/sites/spalektodos",
+    "appService.deploySubpath": "dist\\todo-list-app"
+}

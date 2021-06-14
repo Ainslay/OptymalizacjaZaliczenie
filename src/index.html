@@ -1,13 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>TodoListApp</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+  <head>
+    <title>Simple Todos list</title>
+
+    <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      description="Can't organize your time? Always struggling  to make time to do what you really want? Or maybe you are forgetful and things often slip out of your mind? Don't look further, todos list is a perfect solution to you problems! Organise you tasks in a simple way, tick off those which you already completed to give you a much needed motivation boost! The app is also a fine tool to list your grocieries or keep track of you exams at university."
+    />
+
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="”canonical”" href="https://spalektodos.azurewebsites.net/" />
+
+    <!-- Test structure data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "Recipe",
+        "name": "Party Coffee Cake",
+        "author": {
+          "@type": "Person",
+          "name": "Mary Stone"
+        },
+        "datePublished": "2018-03-10",
+        "description": "This coffee cake is awesome and perfect for parties.",
+        "prepTime": "PT20M"
+      }
+      </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5LH7F24");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5LH7F24"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <app-root></app-root>
+  </body>
 </html>

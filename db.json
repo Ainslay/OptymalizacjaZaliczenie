@@ -1,0 +1,13 @@
+{
+    "todoList": [
+      { "id": 1, "name": "Sample list" },
+      { "id": 2, "name": "Sample list 2" }
+    ],
+    "todoListItem": [
+        { "id": 1, "content": "Posprzątać pokój", "todoListId": 1 },
+        { "id": 2, "content": "Umyć samochód", "todoListId": 1 },
+        { "id": 3, "content": "Poczytać książkę", "todoListId": 1 },
+        { "id": 4, "content": "Zrobić kurs z Angulara", "todoListId": 2 },
+        { "id": 5, "content": "Przygotować obiad", "todoListId": 2 }
+    ]
+  }
